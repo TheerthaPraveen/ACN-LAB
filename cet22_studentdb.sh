@@ -26,10 +26,9 @@ do
         ;;
     4)
         read -p "Enter the ID: " id
-        grep -v "$id" $db>dbs1
+        grep -v "$id" $db > dbs1
         echo "Record is deleted "
-        cat $dbs1
-        exit
+        cat dbs1
         ;;
     5)
         exit ;;

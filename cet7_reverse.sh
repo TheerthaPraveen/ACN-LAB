@@ -1,4 +1,4 @@
-#!/bin/bash
+# !/bin/bash
 if [ $# -eq  1 ]
 then
     if [ -f $1 ]
@@ -14,3 +14,4 @@ then
 else
     echo "Path doesnt exists"
 fi
+ 
